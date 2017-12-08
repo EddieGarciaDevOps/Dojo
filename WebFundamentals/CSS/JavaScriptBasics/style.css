@@ -1,0 +1,45 @@
+* {
+    font-weight: bold;
+}
+
+a {
+    color: cyan;
+}
+
+ul {
+    color: lightgray;
+}
+
+#wrapper {
+    background-color: rgb(31, 31, 146);
+    margin: 0px auto;
+    padding: 20px;
+    width: 970px;
+}
+
+    #header {
+        background-color: red;
+        border-radius: 10px;
+        color: lightgray;
+        padding: 20px;
+        width: 930px;
+    }
+
+    #side_nav {
+        border-radius: 10px;
+        padding: 20px;
+        background-color: darkcyan;
+        display: inline-block;
+        vertical-align: top;
+        width: 185px;
+    }
+
+    #java_txt {
+        border-radius: 10px;
+        background-color: rgb(7, 7, 65);
+        color: lightgray;
+        display: inline-block;
+        margin-left: 10px;
+        padding: 20px;
+        width: 690px;
+    }
