@@ -8,13 +8,20 @@ a {
 
 ul {
     color: lightgray;
+    margin: 0px;
+    padding-left: 15px;
+}
+
+span {
+    color: cornflowerblue;
 }
 
 #wrapper {
-    background-color: rgb(31, 31, 146);
+    background-color: rgb(36, 36, 112);
     margin: 0px auto;
-    padding: 20px;
-    width: 970px;
+    padding: 10px;
+    width: 1220px;
+    box-sizing: border-box;
 }
 
     #header {
@@ -22,24 +29,36 @@ ul {
         border-radius: 10px;
         color: lightgray;
         padding: 20px;
-        width: 930px;
+        width: 1200px;
+        box-sizing: border-box;
+    }
+
+    #footer {
+        background-color: gray;
+        border-radius: 20px;
+        color: lightgray;
+        padding: 20px;
+        width: 1200px;
+        box-sizing: border-box;
     }
 
     #side_nav {
-        border-radius: 10px;
-        padding: 20px;
+        border-radius: 20px;
         background-color: darkcyan;
         display: inline-block;
+        padding: 20px;
         vertical-align: top;
-        width: 185px;
+        width: 220px;
+        box-sizing: border-box;
     }
 
     #java_txt {
-        border-radius: 10px;
-        background-color: rgb(7, 7, 65);
+        border-radius: 20px;
+        background-color: rgb(5, 5, 49);
         color: lightgray;
         display: inline-block;
         margin-left: 10px;
         padding: 20px;
-        width: 690px;
+        width: 965px;
+        box-sizing: border-box;
     }
